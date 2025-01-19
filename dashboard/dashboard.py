@@ -111,7 +111,7 @@ max_date = pd.to_datetime(all_df['dateday']).dt.date.max()
 
 with st.sidebar:
     # Menambahkan logo perusahaan
-    st.image("https://github.com/Salman636/Submision-Data-Analisis/blob/8627e6c4306b3ba780cbbac0a42b10e487c58fbb/file_2025-01-19_12.53.35.png")
+    st.image("https://github.com/Salman636/Submision-Dicoding-Data-Analyst/blob/main/dashboard/file_2025-01-19_12.53.35-removebg-preview.png?raw=true")
     
     # Mengambil start_date & end_date dari date_input
     start_date, end_date = st.date_input(
